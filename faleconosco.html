@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Sunday - Bolsas práticas e mais susentáveis</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="background">
+        <header>
+            <td> <img src="logo.png" width="200" /> </td>
+            <td align="right"></td>
+            
+            <div class="cabeçalho-link">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="modelos.html">Modelos</a>
+                </li>
+                <li>
+                    <a href="carrinho.html">Carrinho</a>
+                </li>
+                <li>
+                    <a href="ccomprar.html">Como comprar</a>
+                </li>
+                <li>
+                    <a href="faleconosco.html">Fale Conosco</a>
+                </li>
+            </div><!--cabeçalho-link-->
+            <div class="icon"><span><ion-icon name="bag-outline"></ion-icon></span></div><!--icon-->
+        </header>
+<br><br><br><br><br><br>
+        
+<div class="row">  
+    <div class="column side">
+        <p></p>
+    </div>
+     <div class="column middle">
+        <p><h2>CONTATO</h2>
+        <li><a href="https://api.whatsapp.com/send/?phone=553132454088&text&type=phone_number&app_absent=0">+55(31)32454088</a></li>
+        <form action="" id="form">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Mensagem">
+            <button type="submit" disabled="disabled">Enviar</button>
+          </form>
+        </p>
+        
+        <script>
+            function checkInputs(inputs) {
+            var filled = true;
+    
+            inputs.forEach(function(input) {
+        
+                if(input.value === "") {
+                filled = false;
+                }
+    
+                });
+    
+            return filled;
+    
+            }
+            var inputs = document.querySelectorAll("input");
+            var button = document.querySelector("button");
+            inputs.forEach(function(input) {
+      
+            input.addEventListener("keyup", function() {
+            if(checkInputs(inputs)) {
+                button.disabled = false;
+            } else {
+                button.disabled = true;
+            }
+            });
+        });
+                </script>
+</div>
+</div>
+
+
+<section class="Contato" id="Contato">
+    <div class="meio-contato">
+        <h3>Sunday</h3>
+        <h5>Nós envie uma mensagem :)
+            <br>
+            (31)3245408
+            <br>
+            @leve.sunday 
+        </h5>
+    </div>
+
+    <div class="meio-contato">
+        <h3>Explore</h3>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="modelos.html">Modelos</a></li>
+        <li><a href="carrinho.html">Carrinho</a></li>
+        <li><a href="faleconosco.html">Fale Conosco</a></li>
+    </div>
+
+    <div class="meio-contato">
+        <h3>Shopping</h3>
+        <li><a href="#">Brisa</a></li>
+        <li><a href="#">Elo</a></li>
+        <li><a href="#">Sal</a></li>
+    </div>
+
+</section>
+
+<div class="last-text">
+    <p>a.oliveiramanuela@gmail.com</p>
+</div>
+
+
+</body>
+</html> 
+            
+                
+                
+           
+
+
+   
